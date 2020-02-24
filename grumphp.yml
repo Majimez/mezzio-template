@@ -1,0 +1,26 @@
+parameters:
+  tasks:
+    composer: ~
+    composer_normalize:
+      indent_size: 2
+      indent_style: "space"
+    composer_require_checker: ~
+    doctrine_orm: ~
+    jsonlint: ~
+    phpcsfixer2:
+      allow_risky: true
+      config: .php_cs
+    phplint: ~
+    phpmd: ~
+    phpstan:
+      level: 8
+      ignore_patterns:
+        - "test/"
+    phpunit: ~
+    phpversion:
+      project: '7.4'
+    securitychecker: ~
+    twigcs:
+      ruleset: '\Allocine\Twigcs\Ruleset\Official'
+    xmllint: ~
+    yamllint: ~
