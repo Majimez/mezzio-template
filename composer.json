@@ -23,6 +23,7 @@
     "psr/http-message": "^1.0",
     "psr/http-server-handler": "^1.0",
     "roave/psr-container-doctrine": "^2.1",
+    "sebastian/phpcpd": "^5.0",
     "symfony/console": "^5.0",
     "vlucas/phpdotenv": "^4.1"
   },

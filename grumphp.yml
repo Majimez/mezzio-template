@@ -7,6 +7,7 @@ parameters:
     composer_require_checker: ~
     doctrine_orm: ~
     jsonlint: ~
+    phpcpd: ~
     phpcsfixer2:
       allow_risky: true
       config: .php_cs
