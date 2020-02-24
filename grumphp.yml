@@ -12,11 +12,19 @@ parameters:
       allow_risky: true
       config: .php_cs
     phplint: ~
-    phpmd: ~
+    phpmd:
+      exclude:
+        - vendor
+        - config
+        - test
+      ruleset:
+        - cleancode
+        - codesize
     phpstan:
       level: 8
       ignore_patterns:
-        - "test/"
+        - .phpstorm.meta.php
+        - test/
     phpunit: ~
     phpversion:
       project: '7.4'
