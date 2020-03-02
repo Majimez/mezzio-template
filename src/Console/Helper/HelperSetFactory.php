@@ -29,6 +29,7 @@ final class HelperSetFactory
             [
                 'em' => $container->get(EntityManagerHelper::class),
                 'db' => $container->get(ConnectionHelper::class),
+                'question' => $container->get(QuestionHelper::class),
             ]
         );
     }

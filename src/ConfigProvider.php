@@ -1,4 +1,4 @@
-<?php
+z?php
 
 declare(strict_types=1);
 
@@ -13,6 +13,7 @@ use Doctrine\DBAL\Tools\Console\Helper\ConnectionHelper;
 use Doctrine\ORM\Tools\Console\Helper\EntityManagerHelper;
 use Symfony\Component\Console\Application as ConsoleApplication;
 use Symfony\Component\Console\Helper\HelperSet;
+use Symfony\Component\Console\Helper\QuestionHelper;
 
 /**
  * The configuration provider for the App module
@@ -48,6 +49,7 @@ class ConfigProvider
         return [
             'invokables' => [
                 Handler\PingHandler::class => Handler\PingHandler::class,
+                QuestionHelper::class => QuestionHelper::class,
             ],
             'factories' => [
                 ClearConfigCache::class => ClearConfigCacheFactory::class,
