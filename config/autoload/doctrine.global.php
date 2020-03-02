@@ -43,7 +43,7 @@ return [
             'orm_default' => [
                 'class' => MappingDriverChain::class,
                 'drivers' => [
-                    'Reviews\Entity' => 'my_entity',
+                    'App\Entity' => 'my_entity',
                 ],
             ],
             'my_entity' => [
