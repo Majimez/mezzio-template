@@ -8,6 +8,6 @@ return [
     'migrations_directory' => sprintf(
         '%s/%s',
         realpath(__DIR__),
-        'src/migrations'
+        'src/Migrations'
     ),
 ];
