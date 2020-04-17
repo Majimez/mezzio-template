@@ -946,16 +946,16 @@
         },
         {
             "name": "doctrine/reflection",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/reflection.git",
-                "reference": "b699ecc7f2784d1e49924fd9858cf1078db6b0e2"
+                "reference": "55e71912dfcd824b2fdd16f2d9afe15684cfce79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/reflection/zipball/b699ecc7f2784d1e49924fd9858cf1078db6b0e2",
-                "reference": "b699ecc7f2784d1e49924fd9858cf1078db6b0e2",
+                "url": "https://api.github.com/repos/doctrine/reflection/zipball/55e71912dfcd824b2fdd16f2d9afe15684cfce79",
+                "reference": "55e71912dfcd824b2fdd16f2d9afe15684cfce79",
                 "shasum": ""
             },
             "require": {
@@ -1020,7 +1020,7 @@
                 "reflection",
                 "static"
             ],
-            "time": "2020-03-21T11:34:59+00:00"
+            "time": "2020-03-27T11:06:43+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -2700,21 +2700,22 @@
         },
         {
             "name": "roave/psr-container-doctrine",
-            "version": "2.1.2",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/psr-container-doctrine.git",
-                "reference": "b7bc3566e5990b3c52f402d546840ced7a7c459f"
+                "reference": "a0b2de4388603b6369e790dd8adfef0238e7d058"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/psr-container-doctrine/zipball/b7bc3566e5990b3c52f402d546840ced7a7c459f",
-                "reference": "b7bc3566e5990b3c52f402d546840ced7a7c459f",
+                "url": "https://api.github.com/repos/Roave/psr-container-doctrine/zipball/a0b2de4388603b6369e790dd8adfef0238e7d058",
+                "reference": "a0b2de4388603b6369e790dd8adfef0238e7d058",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "^2.6",
                 "doctrine/dbal": "^2.5",
+                "doctrine/migrations": "^2.2",
                 "doctrine/orm": "^2.5",
                 "php": ">=7.3.0,<7.5.0",
                 "psr/container": "^1.0.0"
@@ -2722,7 +2723,7 @@
             "require-dev": {
                 "doctrine/coding-standard": "^7.0",
                 "phpunit/phpunit": "^8.5",
-                "psalm/plugin-phpunit": "^0.8.1",
+                "psalm/plugin-phpunit": "^0.9.0",
                 "vimeo/psalm": "^3.8"
             },
             "type": "library",
@@ -2751,7 +2752,7 @@
             ],
             "description": "Doctrine Factories for PSR-11 Containers",
             "homepage": "https://github.com/Roave/psr-container-doctrine",
-            "time": "2020-02-10T14:23:44+00:00"
+            "time": "2020-04-16T23:01:26+00:00"
         },
         {
             "name": "sebastian/finder-facade",
