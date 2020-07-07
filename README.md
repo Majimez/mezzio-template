@@ -95,7 +95,7 @@ It provides a composer script to allow you to enable and disable development mod
 composer development-enable
 ```
 
-**Note:** Enabling development mode will also clear your configuration cache, to 
+**Note:** Enabling development mode will also clear your configuration cache, to
 allow safely updating dependencies and ensuring any new configuration is picked
 up by your application.
 
