@@ -37,7 +37,7 @@
     "maglnet/composer-require-checker": "^2.1",
     "mezzio/mezzio-tooling": "^1.0",
     "phpmd/phpmd": "^2.8",
-    "phpro/grumphp": "^0.21.0",
+    "phpro/grumphp": "^0.22.0",
     "phpstan/phpstan": "^0.12.11",
     "phpunit/phpunit": "^8.5.2",
     "roave/security-advisories": "dev-master",
