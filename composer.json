@@ -31,7 +31,7 @@
     "ergebnis/composer-normalize": "^2.2",
     "filp/whoops": "^2.1.12",
     "friendsofphp/php-cs-fixer": "^2.16",
-    "friendsoftwig/twigcs": "^3.2",
+    "friendsoftwig/twigcs": "^4.0",
     "jakub-onderka/php-parallel-lint": "^1.0",
     "laminas/laminas-development-mode": "^3.1",
     "maglnet/composer-require-checker": "^2.1",
