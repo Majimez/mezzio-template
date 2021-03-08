@@ -5035,21 +5035,21 @@
         },
         {
             "name": "ergebnis/composer-normalize",
-            "version": "2.13.2",
+            "version": "2.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "1255dbc6acb55cb439ce871513b3877a43473a59"
+                "reference": "eff003890c655ee0e4b6ac5d4c5b40ce61247f7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/1255dbc6acb55cb439ce871513b3877a43473a59",
-                "reference": "1255dbc6acb55cb439ce871513b3877a43473a59",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/eff003890c655ee0e4b6ac5d4c5b40ce61247f7c",
+                "reference": "eff003890c655ee0e4b6ac5d4c5b40ce61247f7c",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.1.0 || ^2.0.0",
-                "ergebnis/json-normalizer": "^1.0.2",
+                "ergebnis/json-normalizer": "^1.0.3",
                 "ergebnis/json-printer": "^3.1.1",
                 "justinrainbow/json-schema": "^5.2.10",
                 "localheinz/diff": "^1.1.1",
@@ -5058,18 +5058,18 @@
             "require-dev": {
                 "composer/composer": "^1.10.19 || ^2.0.8",
                 "ergebnis/license": "^1.1.0",
-                "ergebnis/php-cs-fixer-config": "^2.10.0",
+                "ergebnis/php-cs-fixer-config": "^2.13.0",
                 "ergebnis/phpstan-rules": "~0.15.3",
                 "ergebnis/test-util": "^1.4.0",
                 "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "~0.12.64",
+                "phpstan/phpstan": "~0.12.80",
                 "phpstan/phpstan-deprecation-rules": "~0.12.6",
-                "phpstan/phpstan-phpunit": "~0.12.17",
-                "phpstan/phpstan-strict-rules": "~0.12.7",
-                "phpunit/phpunit": "^8.5.13",
-                "psalm/plugin-phpunit": "~0.12.2",
-                "symfony/filesystem": "^5.1.8",
-                "vimeo/psalm": "^3.18.2"
+                "phpstan/phpstan-phpunit": "~0.12.18",
+                "phpstan/phpstan-strict-rules": "~0.12.9",
+                "phpunit/phpunit": "^8.5.14",
+                "psalm/plugin-phpunit": "~0.15.0",
+                "symfony/filesystem": "^5.2.4",
+                "vimeo/psalm": "^4.6.2"
             },
             "type": "composer-plugin",
             "extra": {
@@ -5108,20 +5108,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-31T09:51:22+00:00"
+            "time": "2021-03-06T14:00:23+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/json-normalizer.git",
-                "reference": "6da58f6b555959c07724181744664e732555d0be"
+                "reference": "4a7f064ce34d5a2e382564565cdd433dbc5b9494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/json-normalizer/zipball/6da58f6b555959c07724181744664e732555d0be",
-                "reference": "6da58f6b555959c07724181744664e732555d0be",
+                "url": "https://api.github.com/repos/ergebnis/json-normalizer/zipball/4a7f064ce34d5a2e382564565cdd433dbc5b9494",
+                "reference": "4a7f064ce34d5a2e382564565cdd433dbc5b9494",
                 "shasum": ""
             },
             "require": {
@@ -5138,11 +5138,11 @@
                 "infection/infection": "~0.15.3",
                 "jangregor/phpstan-prophecy": "~0.8.1",
                 "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "~0.12.60",
+                "phpstan/phpstan": "~0.12.80",
                 "phpstan/phpstan-deprecation-rules": "~0.12.6",
                 "phpstan/phpstan-phpunit": "~0.12.17",
-                "phpstan/phpstan-strict-rules": "~0.12.7",
-                "phpunit/phpunit": "^8.5.13",
+                "phpstan/phpstan-strict-rules": "~0.12.9",
+                "phpunit/phpunit": "^8.5.14",
                 "psalm/plugin-phpunit": "~0.12.2",
                 "vimeo/psalm": "^3.18"
             },
@@ -5174,7 +5174,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-31T09:27:51+00:00"
+            "time": "2021-03-06T13:33:57+00:00"
         },
         {
             "name": "ergebnis/json-printer",
@@ -7293,12 +7293,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f7d723a10c7cb36e11430182f5813ecb1b887da0"
+                "reference": "0745f820eed6cb92603ca44a9c137ff8ce315e86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f7d723a10c7cb36e11430182f5813ecb1b887da0",
-                "reference": "f7d723a10c7cb36e11430182f5813ecb1b887da0",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0745f820eed6cb92603ca44a9c137ff8ce315e86",
+                "reference": "0745f820eed6cb92603ca44a9c137ff8ce315e86",
                 "shasum": ""
             },
             "conflict": {
@@ -7316,6 +7316,7 @@
                 "barrelstrength/sprout-forms": "<3.9",
                 "baserproject/basercms": ">=4,<=4.3.6|>=4.4,<4.4.1",
                 "bolt/bolt": "<3.7.1",
+                "bolt/core": "<4.1.13",
                 "brightlocal/phpwhois": "<=4.2.5",
                 "buddypress/buddypress": "<5.1.2",
                 "bugsnag/bugsnag-laravel": ">=2,<2.0.2",
@@ -7363,6 +7364,7 @@
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
                 "ezyang/htmlpurifier": "<4.1.1",
+                "facade/ignition": "<=2.5.1,>=2.0|<=1.16.13",
                 "firebase/php-jwt": "<2",
                 "flarum/sticky": ">=0.1-beta.14,<=0.1-beta.15",
                 "flarum/tags": "<=0.1-beta.13",
@@ -7415,7 +7417,7 @@
                 "october/backend": ">=1.0.319,<1.0.470",
                 "october/cms": "= 1.0.469|>=1.0.319,<1.0.469",
                 "october/october": ">=1.0.319,<1.0.466",
-                "october/rain": ">=1.0.319,<1.0.468",
+                "october/rain": "<1.0.472|>=1.1,<1.1.2",
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
                 "openid/php-openid": "<2.3",
@@ -7439,7 +7441,7 @@
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
-                "pimcore/pimcore": "<6.3",
+                "pimcore/pimcore": "<6.8.8",
                 "pocketmine/pocketmine-mp": "<3.15.4",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
                 "prestashop/contactform": ">1.0.1,<4.3",
@@ -7459,7 +7461,7 @@
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
                 "shopware/core": "<=6.3.4",
-                "shopware/platform": "<=6.3.4",
+                "shopware/platform": "<=6.3.5",
                 "shopware/shopware": "<5.6.9",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
@@ -7479,7 +7481,7 @@
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "simplito/elliptic-php": "<1.0.6",
                 "slim/slim": "<2.6",
-                "smarty/smarty": "<3.1.33",
+                "smarty/smarty": "<3.1.39",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
                 "spoonity/tcpdf": "<6.2.22",
@@ -7540,6 +7542,7 @@
                 "ua-parser/uap-php": "<3.8",
                 "usmanhalalit/pixie": "<1.0.3|>=2,<2.0.2",
                 "verot/class.upload.php": "<=1.0.3|>=2,<=2.0.4",
+                "vrana/adminer": "<4.7.9",
                 "wallabag/tcpdf": "<6.2.22",
                 "willdurand/js-translation-bundle": "<2.1.1",
                 "yii2mod/yii2-cms": "<1.9.2",
@@ -7606,7 +7609,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-02T10:05:32+00:00"
+            "time": "2021-03-03T23:02:20+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
